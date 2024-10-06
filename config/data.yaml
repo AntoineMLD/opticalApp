@@ -1,0 +1,14 @@
+train: train/images
+val: valid/images
+test: test/images
+
+
+nc: 91
+names: ['-', '3_courbes', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'K', 'L', 'M', 'N', 'N_check_double', 'O', 'P', 'R', 'S', 'T', 'V', 'V_cercle', 'W', 'X', 'Y', 'Z', 'a', 'agraphe', 'antislash', 'arc', 'b', 'balance', 'barre_horizontale', 'barre_verticale', 'cercle', 'chemin', 'chinois', 'cinq', 'cintre', 'coupe', 'courbe', 'coureur', 'crochet', 'd', 'deux', 'double_-', 'e', 'e_coeur', 'e_double_courbe', 'e_oeil', 'e_soleil', 'etoile', 'fer', 'filament', 'hexagone', 'huit', 'i', 'k', 'l', 'losange', 'lune', 'm', 'manette', 'n', 'neutron', 'note', 'oeil', 'omega', 'ordi', 'pi', 'pont', 'quatre', 'rectangle_horizontal', 'rectangle_vertical', 's_cercle', 's_losange', 'sept', 'sigma', 'six', 'slash', 'soleil', 't', 'tortue', 'triangle', 'triangle_envers', 'triangle_inverses', 'trident', 'trois', 'trois_inverse', 'u', 'un']
+
+roboflow:
+  workspace: optic-app
+  project: opticalapp
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/optic-app/opticalapp/dataset/1
